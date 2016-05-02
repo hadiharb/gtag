@@ -7,5 +7,4 @@ To extract the fingerprint of an audio file. It is very important to extract fin
 Usage: gtag compare filename_audio directory_fingerprints
 To compare an audio file (WAV, PCM, 8KHz, 16bits, mono) with the fingerprints (.fin files) in a directory.
 
-Main contributor: Hadi Harb (hadi.harb@ghanni.com)
-With the contribution of: Aliaksandr Paradzinets (aliaksandr.paradzinets@ghanni.com)
+Main contributor: Hadi Harb (hadi[DOT]harb[AT]ghanni[DOT]com) with the contribution of: Aliaksandr Paradzinets (aliaksandr[DOT]paradzinets[AT]ghanni[DOT]com)
