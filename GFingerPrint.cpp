@@ -310,6 +310,7 @@ int CFingerPrint::extract(const char* fname, CFPExtractor* extractor, int from, 
     FILE* f = fopen(fname,"rb");
     if (!f) return CFP_ERR_NOFILE;
     unsigned int fs1=0,ds1=0,sr1=0,sc1=0;
+    length -= from;
     fseek(f,4,0);
     fread(&fs1,1,4,f);
     fseek(f,0x14,0);
